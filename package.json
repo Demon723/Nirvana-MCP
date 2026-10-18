@@ -1,0 +1,11 @@
+{
+  "name": "nirvana",
+  "version": "1.0.0",
+  "author": "Adi Kamble",
+  "type": "module",
+  "main": "Nirvana MCP.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
