@@ -1,0 +1,26 @@
+# MCPize Configuration
+# Docs: https://mcpize.com/docs/mcpize-yaml
+
+version: 1
+
+name: "Nirvana"
+slug: "nirvana"
+
+runtime: typescript
+entry: "Nirvana MCP.js"
+
+build:
+  install: "npm install"
+
+start:
+  type: stdio
+  command: "node"
+  args:
+    - "Nirvana MCP.js"
+
+bridge:
+  mode: stdio
+
+credentials:
+  - name: "ANTHROPIC_API_KEY"
+  - name: "OPENAI_API_KEY"
